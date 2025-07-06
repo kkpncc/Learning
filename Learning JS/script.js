@@ -1,4 +1,3 @@
-let admin, name;
-name = "John";
-admin = name;
-console.log(admin);
+let isg = null;
+console.log(isg);
+console.log(typeof isg);
