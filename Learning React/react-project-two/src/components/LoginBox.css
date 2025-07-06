@@ -1,0 +1,38 @@
+.loginbox-container {
+  background-color: blue;
+  color: white;
+  width: 300px;
+  padding: 20px;
+  margin: 100px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.loginbox-container h2 {
+  text-align: center;
+}
+
+.loginbox-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginbox-container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.loginbox-container button {
+  padding: 10px;
+  background-color:white;
+  color: rgb(1, 1, 15);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginbox-container button:hover {
+  background-color: #991919;
+}
