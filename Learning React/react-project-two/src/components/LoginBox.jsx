@@ -1,4 +1,5 @@
 import React from 'react';
+import button from "../components/button"
 import './LoginBox.css'; // Make sure the CSS is imported
 
 const LoginBox = () => {
@@ -14,6 +15,9 @@ const LoginBox = () => {
 
         <button type="submit">Login</button>
       </form>
+      <button/>
+
+     
     </div>
   );
 };
