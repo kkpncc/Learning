@@ -1,0 +1,43 @@
+/* body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: right;
+}
+
+h2 {
+  color: blueviolet;
+  text-align: justify;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+} */
+
+.form {
+  width: 300px;
+  background-color: blueviolet;
+  margin-left: 400px;
+  align-content: center;
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  align-items: center; /* centers horizontally */
+}
+#button {
+  text-align: center;
+}
+.Lorem {
+  color: aquamarine;
+  background-color: rgb(78, 89, 191);
+  text-align: center;
+  /* margin-left: 400px;
+  margin-right: 400px; */
+  width: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-bottom: 50px;
+}
