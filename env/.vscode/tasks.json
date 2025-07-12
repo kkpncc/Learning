@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build and Run with Output Redirection",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "&&",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        ">",
+        "${fileDirname}\\output.txt"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Compiles with g++ and saves output to output.txt"
+    }
+  ]
+}
