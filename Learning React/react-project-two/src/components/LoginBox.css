@@ -1,5 +1,5 @@
 .loginbox-container {
-  background-color: blue;
+  background-color: rgba(31, 195, 237, 0.756);
   color: white;
   width: 500px;
   height: 500px;
@@ -11,7 +11,9 @@
 
 .loginbox-container h2 {
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  font-size: 2cm;
 }
 
 .loginbox-container form {
@@ -36,5 +38,5 @@
 }
 
 .loginbox-container button:hover {
-  background-color: #66baed;
+  background-color: #b4d2e4;
 }
