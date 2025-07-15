@@ -1,9 +1,7 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-  int x;
-  cin >> x;
-  cout << "HELOOOO boy" << x << endl;
+  int n = 4 / 2;
+  cout << n << endl;
   return 0;
 }
