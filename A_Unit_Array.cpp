@@ -27,40 +27,19 @@ int binarySearch(const vector<int> &arr, int target) {
   return -1;
 }
 
-// void solve() {
-//   int n = 0, x = 0;
-//   cin >> n >> x;
-//   int ans = 0;
-//   int rem = n % 4;
-//   if (rem == 1) {
-//     ans = -n;
-//   } else if (rem == 2) {
-//     ans = 1;
-//   } else if (rem == 3) {
-//     ans = n + 1;
-//   }
-//   if (x%2 != 0){
-//     ans
-//   }
-//   cout << x + ans << endl;
-// }
 void solve() {
-  int n, x;
-  cin >> n >> x;
-  int D = 0;
-  int rem = n % 4;
-  if (rem == 1) {
-    D = -n;
-  } else if (rem == 2) {
-    D = 1;
-  } else if (rem == 3) {
-    D = n + 1;
-  } // else D = 0
-
-  if (x % 2 == 0) {
-    cout << x + D << endl;
-  } else {
-    cout << x - D << endl;
+  int sum = 0, ans = 0, prod = 1, n;
+  cin >> n;
+  vector<int> a(n);
+  for (int i = 0; i < n; i++) {
+    cin >> a[i];
+    sum += a[i];
+    prod *= a[i];
+  }
+  if (sum > -1 && prod == 1) {
+    cout << 0 << endl;
+  } else if (prod == -1 && sum > -1) {
+    cout << 1 << endl;
   }
 }
 
